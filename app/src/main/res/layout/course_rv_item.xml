@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_shade_1"
+        tools:ignore="MissingConstraints">
+
+        <!--image view for our meal-->
+        <ImageView
+            android:id="@+id/idIVMeal"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <!--text view for Meal name-->
+        <TextView
+            android:id="@+id/idTVMealName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idIVMeal"
+            android:layout_margin="3dp"
+            android:layout_toStartOf="@id/idTVMealPrice"
+            android:layout_toLeftOf="@id/idTVMealPrice"
+            android:padding="4dp"
+            android:text="Meal Name"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <!--text view for Meal price-->
+        <TextView
+            android:id="@+id/idTVMealPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idIVMeal"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Calories"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

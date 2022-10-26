@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/idRLBSheet"
+    android:background="@color/black_shade_1">
+
+    <!--text view for displaying meal name-->
+    <TextView
+        android:id="@+id/idTVMealName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:padding="4dp"
+        android:text="Meal Name"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <!--image view for displaying meal image-->
+    <ImageView
+        android:id="@+id/idIVMeal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/idTVMealName"
+        android:layout_centerVertical="true"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <!--text view for displaying meal description-->
+    <TextView
+        android:id="@+id/idTVMealDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVMealName"
+        android:layout_margin="4dp"
+        android:layout_toEndOf="@id/idIVMeal"
+        android:layout_toRightOf="@id/idIVMeal"
+        android:padding="3dp"
+        android:text="Description"
+        android:textColor="@color/white" />
+
+    <!--text view for displaying meal best suited for-->
+    <TextView
+        android:id="@+id/idTVSuitedFor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVMealDesc"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toRightOf="@id/idIVMeal"
+        android:padding="3dp"
+        android:text=""
+        android:textColor="@color/white" />
+
+    <!--text view for displaying meal price-->
+    <TextView
+        android:id="@+id/idTVMealPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVSuitedFor"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toRightOf="@id/idIVMeal"
+        android:padding="3dp"
+        android:text="Meal Calorie Amount"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVMealPrice"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!--button for editing meal-->
+        <Button
+            android:id="@+id/idBtnEditMeal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:text="Edit Meal"
+            android:textAllCaps="false" />
+
+        <!--button for viewing meal details-->
+        <Button
+            android:id="@+id/idBtnVIewDetails"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:text="View Details"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</RelativeLayout>
