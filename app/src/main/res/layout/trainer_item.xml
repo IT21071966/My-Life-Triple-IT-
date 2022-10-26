@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:elevation="6dp"
+    app:cardCornerRadius="6dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="408dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@drawable/gradient3">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iamge2"
+            android:layout_width="115dp"
+            android:layout_height="120dp"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/trnametext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/iamge2"
+            android:text="Trainers Name"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/trtimetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/trnametext"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="13dp"
+            android:layout_toRightOf="@+id/iamge2"
+            android:text="Alloacted Time"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/trpricetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/trtimetext"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="13dp"
+            android:layout_toRightOf="@+id/iamge2"
+            android:text="Price"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/iamge2">
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:textAllCaps="false"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/btntredit"/>
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textAllCaps="false"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/btntrdelete"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

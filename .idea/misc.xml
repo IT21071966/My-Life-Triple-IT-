@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sansi/AndroidStudioProjects/mad01/app/src/main/res/drawable/add_ex_icon.xml" value="0.1665" />
+        <entry key="..\:/Users/sansi/AndroidStudioProjects/mad01/app/src/main/res/drawable/gradient1.xml" value="0.1525" />
+        <entry key="..\:/Users/sansi/AndroidStudioProjects/mad01/app/src/main/res/drawable/gradient2.xml" value="0.136" />
+        <entry key="..\:/Users/sansi/AndroidStudioProjects/mad01/app/src/main/res/drawable/gradient3.xml" value="0.136" />
+        <entry key="..\:/Users/sansi/AndroidStudioProjects/mad01/app/src/main/res/drawable/rounded.xml" value="0.1" />
+        <entry key="..\:/Users/sansi/AndroidStudioProjects/mad01/app/src/main/res/drawable/searchex_icon.xml" value="0.1" />
+        <entry key="..\:/Users/sansi/AndroidStudioProjects/mad01/app/src/main/res/layout/activity_add_ex.xml" value="0.2" />
+        <entry key="..\:/Users/sansi/AndroidStudioProjects/mad01/app/src/main/res/layout/activity_add_tr.xml" value="0.2" />
+        <entry key="..\:/Users/sansi/AndroidStudioProjects/mad01/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/sansi/AndroidStudioProjects/mad01/app/src/main/res/layout/activity_main3.xml" value="0.1" />
+        <entry key="..\:/Users/sansi/AndroidStudioProjects/mad01/app/src/main/res/layout/activity_step_counter.xml" value="0.22" />
+        <entry key="..\:/Users/sansi/AndroidStudioProjects/mad01/app/src/main/res/layout/activity_trainers.xml" value="0.25" />
+        <entry key="..\:/Users/sansi/AndroidStudioProjects/mad01/app/src/main/res/layout/exercise_item.xml" value="0.22" />
+        <entry key="..\:/Users/sansi/AndroidStudioProjects/mad01/app/src/main/res/layout/trainer_item.xml" value="0.25" />
+        <entry key="..\:/Users/sansi/AndroidStudioProjects/mad01/app/src/main/res/layout/updateex_popup.xml" value="0.25" />
+        <entry key="..\:/Users/sansi/AndroidStudioProjects/mad01/app/src/main/res/layout/updatetr_popup.xml" value="0.2" />
+        <entry key="..\:/Users/sansi/AndroidStudioProjects/mad01/app/src/main/res/menu/search_ex.xml" value="0.19895833333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
