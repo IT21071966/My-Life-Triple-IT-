@@ -93,7 +93,7 @@ public class EditMealActivity extends AppCompatActivity {
                         // on below line we are displaying a toast message.
                         Toast.makeText(EditMealActivity.this, "Meal Updated..", Toast.LENGTH_SHORT).show();
                         // opening a new activity after updating our coarse.
-                        startActivity(new Intent(EditMealActivity.this, MainActivity.class));
+                        startActivity(new Intent(EditMealActivity.this, MyHealth.class));
                     }
 
                     @Override
@@ -122,6 +122,6 @@ public class EditMealActivity extends AppCompatActivity {
         // displaying a toast message on below line.
         Toast.makeText(this, "Meal Deleted..", Toast.LENGTH_SHORT).show();
         // opening a main activity on below line.
-        startActivity(new Intent(EditMealActivity.this, MainActivity.class));
+        startActivity(new Intent(EditMealActivity.this, MyHealth.class));
     }
 }

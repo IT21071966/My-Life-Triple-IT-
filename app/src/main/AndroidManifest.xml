@@ -11,7 +11,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="MY LIFE"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthAppAuth"
@@ -50,6 +50,49 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+        <activity
+            android:name=".StepCounter"
+            android:exported="false" />
+        <activity
+            android:name=".MyFitnessMain"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".AddTrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TrainersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddExActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AddDay"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivityDay"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name=".TaxCalcUtil"
+            android:exported="false" />
+        <activity
+            android:name=".AddExpense"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityFinance"
+            android:exported="false">
+        </activity>
+
     </application>
 
 </manifest>

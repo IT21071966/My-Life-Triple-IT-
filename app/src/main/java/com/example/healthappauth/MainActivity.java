@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private FirebaseAuth mAuth;
     FirebaseDatabase firebaseDatabase;
 
+    //My Health comment
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,6 +49,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()){
             case R.id.function4:
                 i = new Intent(this,MyHealth.class);
+                startActivity(i);
+                break;
+        }
+
+        switch (view.getId()){
+            case R.id.function3:
+                i = new Intent(this,MyFitnessMain.class);
+                startActivity(i);
+                break;
+        }
+
+        switch (view.getId()){
+            case R.id.function1:
+                i = new Intent(this,MainActivityDay.class);
+                startActivity(i);
+                break;
+        }
+
+        switch (view.getId()){
+            case R.id.function2:
+                i = new Intent(this,MainActivityFinance.class);
                 startActivity(i);
                 break;
         }

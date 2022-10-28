@@ -49,6 +49,7 @@ public class AddMealActivity extends AppCompatActivity {
             public void onClick(View v) {
                 loadingPB.setVisibility(View.VISIBLE);
                 // getting data from our edit text.
+
                 String mealName = mealNameEdt.getText().toString();
                 String mealDesc = mealDescEdt.getText().toString();
                 String mealPrice = mealPriceEdt.getText().toString();
