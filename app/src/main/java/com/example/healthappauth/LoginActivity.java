@@ -54,6 +54,9 @@ public class LoginActivity extends AppCompatActivity {
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent i = new Intent(LoginActivity.this, MainActivity.class);
+                startActivity(i);
+                finish();
                 // hiding our progress bar.
                 loadingPB.setVisibility(View.VISIBLE);
                 // getting data from our edit text on below line.
