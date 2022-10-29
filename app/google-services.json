@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "533576912322",
+    "firebase_url": "https://expen-a37c1-default-rtdb.firebaseio.com",
+    "project_id": "expen-a37c1",
+    "storage_bucket": "expen-a37c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533576912322:android:23e1559bce1240bd36da5b",
+        "android_client_info": {
+          "package_name": "com.example.finalmyfinance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533576912322-v0jso72js66jehp7tpt99f6qc77obnii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNOYDh5NbHCGIdaZnPnyWP-38gz7M2vOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533576912322-v0jso72js66jehp7tpt99f6qc77obnii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533576912322:android:2482a3ea16c37ccf36da5b",
+        "android_client_info": {
+          "package_name": "com.example.myexpense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533576912322-v0jso72js66jehp7tpt99f6qc77obnii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNOYDh5NbHCGIdaZnPnyWP-38gz7M2vOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533576912322-v0jso72js66jehp7tpt99f6qc77obnii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
